@@ -45,7 +45,7 @@
 
 ![MySQL](https://img.shields.io/badge/-MySQL-0D1117?style=flat&logo=mysql)&nbsp;
 ![MongoDB](https://img.shields.io/badge/-MongoDB-0D1117?style=flat&logo=mongodb)&nbsp;
-![AWS](https://img.shields.io/badge/-AWS-0D1117?style=flat&logo=amazonaws&logoColor=FF9900)
+![AWS](https://img.shields.io/badge/-AWS-0D1117?style=flat&logo=amazon&logoColor=FF9900)
 
 </p>
 
