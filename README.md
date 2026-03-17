@@ -45,7 +45,7 @@
 
 ![MySQL](https://img.shields.io/badge/-MySQL-0D1117?style=flat&logo=mysql)&nbsp;
 ![MongoDB](https://img.shields.io/badge/-MongoDB-0D1117?style=flat&logo=mongodb)&nbsp;
-![AWS](https://img.shields.io/badge/-AWS-0D1117?style=flat&logo=amazon&logoColor=FF9900)
+![AWS](https://custom-icon-badges.demolab.com/badge/AWS-0D1117?style=flat&logo=aws&logoColor=FF9900)
 
 </p>
 
@@ -57,7 +57,7 @@
 ![GitHub](https://img.shields.io/badge/-GitHub-0D1117?style=flat&logo=github)&nbsp;
 ![Docker](https://img.shields.io/badge/-Docker-0D1117?style=flat&logo=docker)&nbsp;
 ![Jira](https://img.shields.io/badge/-Jira-0D1117?style=flat&logo=jira&logoColor=0052CC)&nbsp;
-![VS Code](https://img.shields.io/badge/-VS%20Code-0D1117?style=flat&logo=vscodium&logoColor=007ACC)
+![VS Code](https://custom-icon-badges.demolab.com/badge/VS%20Code-0D1117?style=flat&logo=vsc&logoColor=0078d7)
 ![Linux](https://img.shields.io/badge/-Linux-0D1117?style=flat&logo=linux)
 
 </p>
