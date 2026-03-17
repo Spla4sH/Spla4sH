@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <em>Curious graduate exploring the world of software development.</em>
+  <em>Curious business informatics graduate exploring the world of software development.</em>
 </p>
 
 <br>
