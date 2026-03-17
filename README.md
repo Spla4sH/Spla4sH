@@ -14,16 +14,53 @@
 
 ### 🛠 &nbsp; Tech Stack
 
+### 🛠 &nbsp; Tech Stack
+
+**Languages**
+
 <p align="center">
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=flat&logo=javascript)&nbsp;
 ![Python](https://img.shields.io/badge/-Python-0D1117?style=flat&logo=python)&nbsp;
 ![HTML](https://img.shields.io/badge/-HTML-0D1117?style=flat&logo=html5)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-0D1117?style=flat&logo=css3&logoColor=1572B6)&nbsp;
+![Bash](https://img.shields.io/badge/-Bash-0D1117?style=flat&logo=gnubash)
+
+</p>
+
+**Frameworks & Libraries**
+
+<p align="center">
+
+![React](https://img.shields.io/badge/-React-0D1117?style=flat&logo=react)&nbsp;
 ![Node.js](https://img.shields.io/badge/-Node.js-0D1117?style=flat&logo=node.js)&nbsp;
+![PyTorch](https://img.shields.io/badge/-PyTorch-0D1117?style=flat&logo=pytorch)&nbsp;
+![scikit--learn](https://img.shields.io/badge/-scikit--learn-0D1117?style=flat&logo=scikitlearn)&nbsp;
+![Pandas](https://img.shields.io/badge/-Pandas-0D1117?style=flat&logo=pandas)&nbsp;
+![NumPy](https://img.shields.io/badge/-NumPy-0D1117?style=flat&logo=numpy)
+
+</p>
+
+**Databases & Cloud**
+
+<p align="center">
+
+![MySQL](https://img.shields.io/badge/-MySQL-0D1117?style=flat&logo=mysql)&nbsp;
+![MongoDB](https://img.shields.io/badge/-MongoDB-0D1117?style=flat&logo=mongodb)&nbsp;
+![AWS](https://img.shields.io/badge/-AWS-0D1117?style=flat&logo=amazonwebservices)
+
+</p>
+
+**Tools**
+
+<p align="center">
+
 ![Git](https://img.shields.io/badge/-Git-0D1117?style=flat&logo=git)&nbsp;
 ![GitHub](https://img.shields.io/badge/-GitHub-0D1117?style=flat&logo=github)&nbsp;
-![VS Code](https://img.shields.io/badge/-VS%20Code-0D1117?style=flat&logo=visual-studio-code&logoColor=007ACC)
+![Docker](https://img.shields.io/badge/-Docker-0D1117?style=flat&logo=docker)&nbsp;
+![Jira](https://img.shields.io/badge/-Jira-0D1117?style=flat&logo=jira&logoColor=0052CC)&nbsp;
+![VS Code](https://img.shields.io/badge/-VS%20Code-0D1117?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;
+![Linux](https://img.shields.io/badge/-Linux-0D1117?style=flat&logo=linux)
 
 </p>
 
