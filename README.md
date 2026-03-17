@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <em>Curious student exploring the world of software development — one commit at a time.</em>
+  <em>Curious graduate exploring the world of software development.</em>
 </p>
 
 <br>
