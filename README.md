@@ -56,6 +56,7 @@
 
 ![Git](https://img.shields.io/badge/-Git-0D1117?style=flat&logo=git)&nbsp;
 ![GitHub](https://img.shields.io/badge/-GitHub-0D1117?style=flat&logo=github)&nbsp;
+![GitLab](https://img.shields.io/badge/-GitLab-0D1117?style=flat&logo=gitlab)
 ![Docker](https://img.shields.io/badge/-Docker-0D1117?style=flat&logo=docker)&nbsp;
 ![Jira](https://img.shields.io/badge/-Jira-0D1117?style=flat&logo=jira&logoColor=0052CC)&nbsp;
 ![VS Code](https://custom-icon-badges.demolab.com/badge/VS%20Code-0D1117?style=flat&logo=vsc&logoColor=0078d7)
