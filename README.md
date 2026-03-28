@@ -62,6 +62,7 @@
 ![Docker](https://img.shields.io/badge/-Docker-0D1117?style=flat&logo=docker)&nbsp;
 ![Jira](https://img.shields.io/badge/-Jira-0D1117?style=flat&logo=jira&logoColor=0052CC)&nbsp;
 ![VS Code](https://custom-icon-badges.demolab.com/badge/VS%20Code-0D1117?style=flat&logo=vsc&logoColor=0078d7)
+![PyCharm](https://img.shields.io/badge/-PyCharm-0D1117?style=flat&logo=pycharm)
 ![Claude Code](https://img.shields.io/badge/-Claude%20Code-0D1117?style=flat&logo=claude&logoColor=D97757)
 ![Linux](https://img.shields.io/badge/-Linux-0D1117?style=flat&logo=linux)
 ![WSL2](https://img.shields.io/badge/-WSL2-0D1117?style=flat&logo=linux)
