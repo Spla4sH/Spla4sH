@@ -74,39 +74,26 @@
 <br>
 
 ### 📊 &nbsp; GitHub Stats
-
 <div align="center">
-
-<img height="160em" src="https://github-readme-stats.vercel.app/api?username=Spla4sH&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=C9D1D9&icon_color=58A6FF&text_color=8B949E&ring_color=58A6FF" />
+<img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Spla4sH&theme=github_dark" />
 &nbsp;&nbsp;
-<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Spla4sH&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E" />
-
+<img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Spla4sH&theme=github_dark" />
 </div>
-
 <br>
-
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Spla4sH&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=21262D&ring=58A6FF&fire=58A6FF&currStreakLabel=C9D1D9&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=8B949E&dates=8B949E" />
 </div>
-
 <br>
-
 <br>
-
 <div align="center">
 
 ### 🐍 &nbsp; Contribution Snake
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Spla4sH/Spla4sH/blob/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Spla4sH/Spla4sH/blob/output/github-snake.svg" />
   <img alt="github-snake" src="https://github.com/Spla4sH/Spla4sH/blob/output/github-snake.svg" />
 </picture>
-
 </div>
-
 <div align="center">
-
   <img src="https://komarev.com/ghpvc/?username=Spla4sH&style=flat&color=0D1117&label=Profile+views" />
-
 </div>
