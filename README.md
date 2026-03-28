@@ -59,6 +59,9 @@
 ![Jira](https://img.shields.io/badge/-Jira-0D1117?style=flat&logo=jira&logoColor=0052CC)&nbsp;
 ![VS Code](https://custom-icon-badges.demolab.com/badge/VS%20Code-0D1117?style=flat&logo=vsc&logoColor=0078d7)
 ![Linux](https://img.shields.io/badge/-Linux-0D1117?style=flat&logo=linux)
+![WSL2](https://img.shields.io/badge/-WSL2-0D1117?style=flat&logo=linux)
+![Zsh](https://img.shields.io/badge/-Zsh-0D1117?style=flat&logo=zsh)
+
 
 </p>
 
