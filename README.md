@@ -37,6 +37,8 @@
 ![scikit--learn](https://img.shields.io/badge/-scikit--learn-0D1117?style=flat&logo=scikitlearn)&nbsp;
 ![Pandas](https://img.shields.io/badge/-Pandas-0D1117?style=flat&logo=pandas)&nbsp;
 ![NumPy](https://img.shields.io/badge/-NumPy-0D1117?style=flat&logo=numpy)
+![Darts](https://img.shields.io/badge/-Darts-0D1117?style=flat&logo=python&logoColor=3776AB)
+![AutoTS](https://img.shields.io/badge/-AutoTS-0D1117?style=flat&logo=python&logoColor=3776AB)
 
 </p>
 
