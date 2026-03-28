@@ -20,6 +20,7 @@
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=flat&logo=javascript)&nbsp;
 ![Python](https://img.shields.io/badge/-Python-0D1117?style=flat&logo=python)&nbsp;
+![Java](https://img.shields.io/badge/-Java-0D1117?style=flat&logo=openjdk)
 ![HTML](https://img.shields.io/badge/-HTML-0D1117?style=flat&logo=html5)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-0D1117?style=flat&logo=css&logoColor=1572B6)
 ![Bash](https://img.shields.io/badge/-Bash-0D1117?style=flat&logo=gnubash)
