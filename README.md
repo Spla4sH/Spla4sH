@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=300&size=28&duration=3000&pause=1000&color=C9D1D9&center=true&vCenter=true&width=435&lines=Hey%2C+I'm+R3trodios+%F0%9F%91%8B;Learner+%7C+Developer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=300&size=28&duration=3000&pause=1000&color=C9D1D9&center=true&vCenter=true&width=435&lines=Hey%2C+I'm+R3trodios+%F0%9F%91%8B;Learner+%7C+Developer" alt="Typing SVG" />
 </h1>
 
 <p align="center">
@@ -81,7 +81,7 @@
 </div>
 <br>
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Spla4sH&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=21262D&ring=58A6FF&fire=58A6FF&currStreakLabel=C9D1D9&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=8B949E&dates=8B949E" />
+  <img src="https://streak-stats.demolab.com?user=Spla4sH&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=21262D&ring=58A6FF&fire=58A6FF&currStreakLabel=C9D1D9&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=8B949E&dates=8B949E" />
 </div>
 <br>
 <br>
