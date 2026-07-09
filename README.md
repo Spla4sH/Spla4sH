@@ -81,7 +81,7 @@
 </div>
 <br>
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Spla4sH&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=21262D&ring=58A6FF&fire=58A6FF&currStreakLabel=C9D1D9&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=8B949E&dates=8B949E" />
+  <img src="https://github-readme-streak-stats-sigma-flame.vercel.app?user=Spla4sH&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=21262D&ring=58A6FF&fire=58A6FF&currStreakLabel=C9D1D9&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=8B949E&dates=8B949E" />
 </div>
 <br>
 <br>
