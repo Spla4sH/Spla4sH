@@ -75,9 +75,9 @@
 
 ### 📊 &nbsp; GitHub Stats
 <div align="center">
-<img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Spla4sH&theme=github_dark" />
+<img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Spla4sH&show_icons=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF" />
 &nbsp;&nbsp;
-<img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Spla4sH&theme=github_dark" />
+<img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Spla4sH&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" />
 </div>
 <br>
 <div align="center">
