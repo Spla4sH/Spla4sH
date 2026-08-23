@@ -12,6 +12,7 @@
  */
 import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { themes, sans, mono, escapeXml, frame } from './lib/render.mjs';
 
 const login = process.env.GH_LOGIN;
 const token = process.env.GH_TOKEN;
@@ -30,15 +31,6 @@ if (!login || !token) {
  * linguist-generated in the repo itself; until then they are skipped here.
  */
 const EXCLUDE_FROM_LANGUAGES = new Set(['darts-forecasting']);
-
-const theme = {
-  bg: '#0D1117',
-  title: '#58A6FF',
-  text: '#C9D1D9',
-  dim: '#8B949E',
-  track: '#21262D',
-  font: "'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif",
-};
 
 const QUERY = `
 query($login: String!, $after: String) {
@@ -129,25 +121,14 @@ async function collect() {
   };
 }
 
-const escapeXml = (s) =>
-  String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const CARD_WIDTH = 430;
+const CARD_HEIGHT = 200;
 
-function card(width, height, title, body) {
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeXml(title)}">
-  <title>${escapeXml(title)}</title>
-  <style>
-    .t { font: 600 17px ${theme.font}; fill: ${theme.title} }
-    .l { font: 400 14px ${theme.font}; fill: ${theme.text} }
-    .v { font: 600 14px ${theme.font}; fill: ${theme.text} }
-    .d { font: 400 12px ${theme.font}; fill: ${theme.dim} }
-  </style>
-  <rect width="${width}" height="${height}" rx="8" fill="${theme.bg}"/>
-  <text x="26" y="36" class="t">${escapeXml(title)}</text>
-${body}
-</svg>`;
-}
+/** Section eyebrow in the same mono/uppercase key as the other panels. */
+const eyebrow = (label, theme) =>
+  `    <text x="30" y="44" font-family="${mono}" font-size="12" fill="${theme.dim}" letter-spacing="2">${escapeXml(label)}</text>`;
 
-function statsCard(data) {
+function statsCard(data, theme) {
   // The streak card below this one already carries total contributions and
   // streaks, so these rows complement it rather than repeat it. Issues and PRs
   // are left out on purpose: at 0 and 1 they say nothing about the work.
@@ -160,27 +141,30 @@ function statsCard(data) {
 
   const body = rows
     .map(([label, value], i) => {
-      const y = 78 + i * 28;
-      return `  <text x="26" y="${y}" class="l">${escapeXml(label)}</text>\n` +
-        `  <text x="394" y="${y}" class="v" text-anchor="end">${escapeXml(value.toLocaleString('en-US'))}</text>`;
+      const y = 86 + i * 28;
+      return `    <text x="30" y="${y}" font-family="${sans}" font-size="14" fill="${theme.muted}">${escapeXml(label)}</text>\n` +
+        `    <text x="${CARD_WIDTH - 30}" y="${y}" text-anchor="end" font-family="${mono}" font-size="15" font-weight="500" fill="${theme.fg}">${escapeXml(value.toLocaleString('en-US'))}</text>`;
     })
     .join('\n');
 
   // No name in the title: the account's display name, the README header and the
   // portfolio each use a different one, and the header above already names him.
-  return card(420, 200, 'GitHub Stats', body);
+  return frame(CARD_WIDTH, CARD_HEIGHT, theme, theme.accent, `${eyebrow('GITHUB STATS', theme)}\n${body}`, 'GitHub stats');
 }
 
-function languagesCard(data) {
+function languagesCard(data, theme) {
   const top = data.languages.slice(0, 6);
   const total = top.reduce((sum, l) => sum + l.size, 0) || 1;
 
-  const barWidth = 368;
-  let offset = 26;
+  const barX = 30;
+  const barY = 64;
+  const barWidth = CARD_WIDTH - barX * 2;
+
+  let offset = barX;
   const bar = top
     .map((lang) => {
       const w = Math.max((lang.size / total) * barWidth, 2);
-      const segment = `  <rect x="${offset.toFixed(1)}" y="58" width="${w.toFixed(1)}" height="10" fill="${lang.color}"/>`;
+      const segment = `      <rect x="${offset.toFixed(1)}" y="${barY}" width="${w.toFixed(1)}" height="10" fill="${lang.color}"/>`;
       offset += w;
       return segment;
     })
@@ -188,27 +172,34 @@ function languagesCard(data) {
 
   const legend = top
     .map((lang, i) => {
-      const x = 26 + (i % 2) * 190;
-      const y = 100 + Math.floor(i / 2) * 26;
+      const x = barX + (i % 2) * 190;
+      const y = 108 + Math.floor(i / 2) * 26;
       const share = ((lang.size / total) * 100).toFixed(1);
-      return `  <circle cx="${x + 5}" cy="${y - 4}" r="5" fill="${lang.color}"/>\n` +
-        `  <text x="${x + 18}" y="${y}" class="l">${escapeXml(lang.name)}</text>\n` +
-        `  <text x="${x + 170}" y="${y}" class="d" text-anchor="end">${share}%</text>`;
+      return `    <circle cx="${x + 5}" cy="${y - 4}" r="5" fill="${lang.color}"/>\n` +
+        `    <text x="${x + 18}" y="${y}" font-family="${sans}" font-size="14" fill="${theme.muted}">${escapeXml(lang.name)}</text>\n` +
+        `    <text x="${x + 165}" y="${y}" text-anchor="end" font-family="${mono}" font-size="12" fill="${theme.dim}">${share}%</text>`;
     })
     .join('\n');
 
-  const body = `  <rect x="26" y="58" width="${barWidth}" height="10" rx="5" fill="${theme.track}"/>\n` +
-    `  <g clip-path="url(#bar)">\n${bar}\n  </g>\n` +
-    `  <defs><clipPath id="bar"><rect x="26" y="58" width="${barWidth}" height="10" rx="5"/></clipPath></defs>\n` +
-    legend;
+  const body = `${eyebrow('MOST USED LANGUAGES', theme)}
+    <defs><clipPath id="bar"><rect x="${barX}" y="${barY}" width="${barWidth}" height="10" rx="5"/></clipPath></defs>
+    <rect x="${barX}" y="${barY}" width="${barWidth}" height="10" rx="5" fill="${theme.chip}"/>
+    <g clip-path="url(#bar)">
+${bar}
+    </g>
+${legend}`;
 
-  return card(420, 200, 'Most Used Languages', body);
+  return frame(CARD_WIDTH, CARD_HEIGHT, theme, theme.accent, body, 'Most used languages');
 }
 
 const data = await collect();
 await mkdir(outDir, { recursive: true });
-await writeFile(path.join(outDir, 'github-stats.svg'), statsCard(data), 'utf8');
-await writeFile(path.join(outDir, 'top-languages.svg'), languagesCard(data), 'utf8');
+
+for (const theme of [themes.dark, themes.light]) {
+  const suffix = theme.name === 'light' ? '-light' : '';
+  await writeFile(path.join(outDir, `github-stats${suffix}.svg`), statsCard(data, theme), 'utf8');
+  await writeFile(path.join(outDir, `top-languages${suffix}.svg`), languagesCard(data, theme), 'utf8');
+}
 
 console.log(`${data.repoCount} repos, ${data.stars} stars, ${data.commits} commits (last year)`);
 console.log(`languages: ${data.languages.slice(0, 6).map((l) => l.name).join(', ')}`);

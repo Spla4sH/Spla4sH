@@ -1,4 +1,4 @@
-name: Generate Stats Cards
+name: Generate Profile Cards
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
   push:
     branches: [main]
     paths:
-      - scripts/generate-stats.mjs
+      - scripts/**
       - .github/workflows/stats.yml
 
 permissions:
@@ -29,7 +29,12 @@ jobs:
         with:
           node-version: 22
 
-      - name: Render cards
+      # No API call needed here, so this still produces a usable README even if
+      # the stats query below fails.
+      - name: Render header and tech stack
+        run: node scripts/generate-panels.mjs dist
+
+      - name: Render stats cards
         env:
           GH_LOGIN: ${{ github.repository_owner }}
           # STATS_TOKEN is optional: without it the built-in token sees public
