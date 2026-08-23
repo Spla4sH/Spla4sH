@@ -52,7 +52,11 @@ query($login: String!, $after: String) {
     }
     pullRequests { totalCount }
     issues { totalCount }
-    repositories(first: 100, after: $after, ownerAffiliations: OWNER, isFork: false) {
+    # Public only, so the repo count and the language split describe what a
+    # visitor can actually go and look at - and so the "Public Repositories"
+    # label stays true even if STATS_TOKEN is added later. Commit counts are
+    # the one figure that legitimately includes private work.
+    repositories(first: 100, after: $after, ownerAffiliations: OWNER, isFork: false, privacy: PUBLIC) {
       pageInfo { hasNextPage endCursor }
       totalCount
       nodes {
