@@ -75,7 +75,7 @@
 
 ### 📚 &nbsp; Currently Learning
 
-Since 2026 I work in-house as an **SAP consultant and developer on S/4HANA** — the
+Since 2026 I work in-house as an **SAP consultant and developer on S/4HANA** - the
 road there went through SAP test automation at Haufe Group.
 
 | Topic | Where I'm at |
