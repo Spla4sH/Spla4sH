@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <em>In-house SAP consultant and developer. Business informatics graduate who learns by building things.</em>
+  <em>In-house SAP consultant and developer on S/4HANA. Business informatics graduate who learns by building things.</em>
 </p>
 
 <br>
@@ -75,11 +75,12 @@
 
 ### 📚 &nbsp; Currently Learning
 
-Since 2026 I work in-house as an **SAP consultant and developer** — the road there
-went through SAP test automation at Haufe Group.
+Since 2026 I work in-house as an **SAP consultant and developer on S/4HANA** — the
+road there went through SAP test automation at Haufe Group.
 
 | Topic | Where I'm at |
 |---|---|
+| **ABAP** | learning it on the job |
 | **CDS Views** | in use in my project |
 | **OData** | building it up |
 | **RAP** | up next |
