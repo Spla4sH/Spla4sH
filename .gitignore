@@ -1,0 +1,4 @@
+# Local output of scripts/generate-stats.mjs; the workflow publishes it to the
+# `stats` branch instead of committing it here.
+dist/
+node_modules/

@@ -89,9 +89,9 @@ road there went through SAP test automation at Haufe Group.
 
 ### 📊 &nbsp; GitHub Stats
 <div align="center">
-<img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Spla4sH&show_icons=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF" />
+<img height="200" src="https://github.com/Spla4sH/Spla4sH/raw/stats/github-stats.svg" alt="GitHub Stats" />
 &nbsp;&nbsp;
-<img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Spla4sH&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" />
+<img height="200" src="https://github.com/Spla4sH/Spla4sH/raw/stats/top-languages.svg" alt="Most Used Languages" />
 </div>
 <br>
 <div align="center">
