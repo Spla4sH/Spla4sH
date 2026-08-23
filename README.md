@@ -1,9 +1,9 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=300&size=28&duration=3000&pause=1000&color=C9D1D9&center=true&vCenter=true&width=435&lines=Hey%2C+I'm+Spl4sH+%F0%9F%91%8B;Learner+%7C+Developer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=300&size=28&duration=3000&pause=1000&color=C9D1D9&center=true&vCenter=true&width=520&lines=Hey%2C+I'm+Spl4sH+%F0%9F%91%8B;SAP+Consultant+%26+Developer;Learner+%7C+Builder" alt="Typing SVG" />
 </h1>
 
 <p align="center">
-  <em>Curious business informatics graduate exploring the world of software development.</em>
+  <em>In-house SAP consultant and developer. Business informatics graduate who learns by building things.</em>
 </p>
 
 <br>
@@ -70,6 +70,19 @@
 
 
 </p>
+
+<br>
+
+### 📚 &nbsp; Currently Learning
+
+Since 2026 I work in-house as an **SAP consultant and developer** — the road there
+went through SAP test automation at Haufe Group.
+
+| Topic | Where I'm at |
+|---|---|
+| **CDS Views** | in use in my project |
+| **OData** | building it up |
+| **RAP** | up next |
 
 <br>
 
