@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="200" viewBox="0 0 430 200" role="img" aria-label="GitHub stats">
+  <title>GitHub stats</title>
+  <defs>
+    <radialGradient id="glow" cx="12%" cy="-20%" r="95%">
+      <stop offset="0%" stop-color="#0f8a68" stop-opacity="0.1"/>
+      <stop offset="55%" stop-color="#0f8a68" stop-opacity="0.028000000000000004"/>
+      <stop offset="100%" stop-color="#0f8a68" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card"><rect width="430" height="200" rx="10"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="430" height="200" fill="#ffffff"/>
+    <rect width="430" height="200" fill="url(#glow)"/>
+    <text x="30" y="44" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#6e7781" letter-spacing="2">GITHUB STATS</text>
+    <text x="30" y="86" font-family="'Segoe UI', Inter, Ubuntu, Helvetica, Arial, sans-serif" font-size="14" fill="#57606a">Public Repositories</text>
+    <text x="400" y="86" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" font-weight="500" fill="#1f2328">9</text>
+    <text x="30" y="114" font-family="'Segoe UI', Inter, Ubuntu, Helvetica, Arial, sans-serif" font-size="14" fill="#57606a">Commits (last year)</text>
+    <text x="400" y="114" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" font-weight="500" fill="#1f2328">216</text>
+    <text x="30" y="142" font-family="'Segoe UI', Inter, Ubuntu, Helvetica, Arial, sans-serif" font-size="14" fill="#57606a">Contributed to (last year)</text>
+    <text x="400" y="142" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" font-weight="500" fill="#1f2328">7</text>
+    <text x="30" y="170" font-family="'Segoe UI', Inter, Ubuntu, Helvetica, Arial, sans-serif" font-size="14" fill="#57606a">Total Stars Earned</text>
+    <text x="400" y="170" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" font-weight="500" fill="#1f2328">1</text>
+    <rect x="0" y="197" width="430" height="3" fill="#0f8a68"/>
+  </g>
+  <rect x="0.5" y="0.5" width="429" height="199" rx="10" fill="none" stroke="#d8dee4"/>
+</svg>
