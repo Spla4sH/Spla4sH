@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="190" viewBox="0 0 880 190" role="img" aria-label="Sebastian Rösch — SAP Consultant &amp; Developer  ·  S/4HANA">
+  <title>Sebastian Rösch — SAP Consultant &amp; Developer  ·  S/4HANA</title>
+  <defs>
+    <radialGradient id="glow" cx="12%" cy="-20%" r="95%">
+      <stop offset="0%" stop-color="#0f8a68" stop-opacity="0.1"/>
+      <stop offset="55%" stop-color="#0f8a68" stop-opacity="0.028000000000000004"/>
+      <stop offset="100%" stop-color="#0f8a68" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card"><rect width="880" height="190" rx="10"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="880" height="190" fill="#ffffff"/>
+    <rect width="880" height="190" fill="url(#glow)"/>
+<g transform="translate(48,40) scale(0.6666666666666666)">
+    <rect width="84" height="84" rx="16" fill="#f6f8fa" stroke="#d8dee4" stroke-width="2"/>
+    <path d="M22 27 L41 42 L22 57" stroke="#0f8a68" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="46" y="53" width="18" height="7" rx="3.5" fill="#0f8a68"/>
+  </g>
+    <text x="120" y="80" font-family="'Segoe UI', Inter, Ubuntu, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#1f2328" letter-spacing="-1.2">Sebastian <tspan fill="#0f8a68">Rösch</tspan></text>
+    <text x="120" y="112" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="16" fill="#57606a" letter-spacing="0.5">SAP Consultant &amp; Developer  ·  S/4HANA</text>
+    <line x1="48" y1="140" x2="832" y2="140" stroke="#d8dee4"/>
+    <text x="48" y="167" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#6e7781">Learning by building things</text>
+    <text x="832" y="167" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#6e7781">spla4sh.github.io</text>
+    <rect x="0" y="187" width="880" height="3" fill="#0f8a68"/>
+  </g>
+  <rect x="0.5" y="0.5" width="879" height="189" rx="10" fill="none" stroke="#d8dee4"/>
+</svg>
