@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="328" viewBox="0 0 880 328" role="img" aria-label="Tech stack">
+  <title>Tech stack</title>
+  <defs>
+    <radialGradient id="glow" cx="12%" cy="-20%" r="95%">
+      <stop offset="0%" stop-color="#0f8a68" stop-opacity="0.1"/>
+      <stop offset="55%" stop-color="#0f8a68" stop-opacity="0.028000000000000004"/>
+      <stop offset="100%" stop-color="#0f8a68" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card"><rect width="880" height="328" rx="10"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="880" height="328" fill="#ffffff"/>
+    <rect width="880" height="328" fill="url(#glow)"/>
+    <text x="40" y="46" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#6e7781" letter-spacing="2">TECH STACK</text>
+    <rect x="40" y="74" width="3" height="24" rx="1.5" fill="#0f8a68"/>
+    <text x="56" y="90" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="500" fill="#0f8a68" letter-spacing="1.2">LANGUAGES</text>
+    <rect x="190.0" y="74" width="63.2" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="221.6" y="90" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">Python</text>
+    <rect x="261.2" y="74" width="92.0" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="307.2" y="90" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">JavaScript</text>
+    <rect x="361.2" y="74" width="48.8" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="385.6" y="90" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">Java</text>
+    <rect x="418.0" y="74" width="48.8" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="442.4" y="90" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">Bash</text>
+    <rect x="474.8" y="74" width="77.6" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="513.6" y="90" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">HTML/CSS</text>
+    <rect x="40" y="112" width="3" height="24" rx="1.5" fill="#7c3aed"/>
+    <text x="56" y="128" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="500" fill="#7c3aed" letter-spacing="1.2">ML &amp; DATA</text>
+    <rect x="190.0" y="112" width="70.4" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="225.2" y="128" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">PyTorch</text>
+    <rect x="268.4" y="112" width="106.4" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="321.6" y="128" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">scikit-learn</text>
+    <rect x="382.8" y="112" width="63.2" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="414.4" y="128" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">Pandas</text>
+    <rect x="454.0" y="112" width="56.0" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="482.0" y="128" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">NumPy</text>
+    <rect x="518.0" y="112" width="56.0" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="546.0" y="128" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">Darts</text>
+    <rect x="582.0" y="112" width="63.2" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="613.6" y="128" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">AutoTS</text>
+    <rect x="40" y="150" width="3" height="24" rx="1.5" fill="#0d9488"/>
+    <text x="56" y="166" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="500" fill="#0d9488" letter-spacing="1.2">WEB</text>
+    <rect x="190.0" y="150" width="56.0" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="218.0" y="166" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">React</text>
+    <rect x="254.0" y="150" width="70.4" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="289.2" y="166" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">Node.js</text>
+    <rect x="332.4" y="150" width="56.0" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="360.4" y="166" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">Astro</text>
+    <rect x="40" y="188" width="3" height="24" rx="1.5" fill="#2563eb"/>
+    <text x="56" y="204" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="500" fill="#2563eb" letter-spacing="1.2">DEVOPS &amp; CLOUD</text>
+    <rect x="190.0" y="188" width="63.2" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="221.6" y="204" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">Docker</text>
+    <rect x="261.2" y="188" width="92.0" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="307.2" y="204" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">Kubernetes</text>
+    <rect x="361.2" y="188" width="63.2" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="392.8" y="204" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">ArgoCD</text>
+    <rect x="432.4" y="188" width="48.8" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="456.8" y="204" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">Helm</text>
+    <rect x="489.2" y="188" width="120.8" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="549.6" y="204" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">GitHub Actions</text>
+    <rect x="618.0" y="188" width="41.6" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="638.8" y="204" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">AWS</text>
+    <rect x="667.6" y="188" width="56.0" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="695.6" y="204" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">Linux</text>
+    <rect x="40" y="226" width="3" height="24" rx="1.5" fill="#b45309"/>
+    <text x="56" y="242" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="500" fill="#b45309" letter-spacing="1.2">DATABASES</text>
+    <rect x="190.0" y="226" width="56.0" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="218.0" y="242" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">MySQL</text>
+    <rect x="254.0" y="226" width="70.4" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="289.2" y="242" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">MongoDB</text>
+    <rect x="40" y="264" width="3" height="24" rx="1.5" fill="#e11d48"/>
+    <text x="56" y="280" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="500" fill="#e11d48" letter-spacing="1.2">TOOLS</text>
+    <rect x="190.0" y="264" width="63.2" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="221.6" y="280" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">GitLab</text>
+    <rect x="261.2" y="264" width="48.8" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="285.6" y="280" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">Jira</text>
+    <rect x="318.0" y="264" width="99.2" height="24" rx="6" fill="#ffffff" stroke="#d8dee4"/>
+    <text x="367.6" y="280" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#57606a">Claude Code</text>
+    <rect x="0" y="325" width="880" height="3" fill="#0f8a68"/>
+  </g>
+  <rect x="0.5" y="0.5" width="879" height="327" rx="10" fill="none" stroke="#d8dee4"/>
+</svg>
